@@ -226,3 +226,85 @@ a:hover{
 .copyright{
     padding-top: 5px;
 }
+@media (max-width: 1024px) {
+    .nav-search {
+        width: 80%;
+    }
+
+    .panel-options {
+        display: none;
+    }
+
+    .shop-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .foot-panel2 {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .foot-panel2 ul {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav_logo, .nav-address, .nav-signin, .nav-return, .nav-cart {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-menu {
+        margin-bottom: 10px;
+    }
+
+    .hero-section {
+        height: 200px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 95%;
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-panel2 ul {
+        margin: 10px 0;
+    }
+}
